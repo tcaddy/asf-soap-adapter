@@ -284,20 +284,20 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<builder>, [">= 1.2.4"])
       s.add_runtime_dependency(%q<hpricot>, [">= 0.8.2"])
       s.add_runtime_dependency(%q<facets>, ["= 2.8.4"])
-      s.add_runtime_dependency(%q<oauth>, ["= 0.4.4"])
+      s.add_runtime_dependency(%q<oauth>, [">= 0.4.4"])
     else
       s.add_dependency(%q<rforce>, [">= 0.6"])
       s.add_dependency(%q<builder>, [">= 1.2.4"])
       s.add_dependency(%q<hpricot>, [">= 0.8.2"])
       s.add_dependency(%q<facets>, ["= 2.8.4"])
-      s.add_dependency(%q<oauth>, ["= 0.4.4"])
+      s.add_dependency(%q<oauth>, [">= 0.4.4"])
     end
   else
     s.add_dependency(%q<rforce>, [">= 0.6"])
     s.add_dependency(%q<builder>, [">= 1.2.4"])
     s.add_dependency(%q<hpricot>, [">= 0.8.2"])
     s.add_dependency(%q<facets>, ["= 2.8.4"])
-    s.add_dependency(%q<oauth>, ["= 0.4.4"])
+    s.add_dependency(%q<oauth>, [">= 0.4.4"])
   end
 end
 
